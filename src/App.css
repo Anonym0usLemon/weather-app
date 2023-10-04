@@ -21,14 +21,21 @@ body {
     padding: 20px;
 }
 
+.weather-app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
 input {
     border: none;
     height: 35px;
     width: 200px;
     background-color: #3f8ebf;
     color: white;
-    border: 2px solid #D9D9D9;
-    border-radius: 20px;
+    border-bottom: 2px solid #D9D9D9;
+    border-radius: 5px;
     padding: 10px;
 }
 
@@ -36,9 +43,23 @@ input::placeholder {
     color: #D9D9D9;
 }
 
-.search {
-    position: relative;
+button {
+    position: absolute;
     left: -30px;
     color: #D9D9D9;
     height: 15px;
+    background-color: transparent;
+    border: none;
+    left: 222px;
 }
+
+form {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 100%;
+}
+
+

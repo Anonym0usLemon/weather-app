@@ -10,9 +10,6 @@ A simple React application that allows users to check real-time weather data for
 - [Demo](#demo)
 - [Installation](#installation)
 - [Usage](#usage)
-- [API Key](#api-key)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
